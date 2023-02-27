@@ -14,7 +14,7 @@ class User:
     
 
 configuration = sib_api_v3_sdk.Configuration()
-configuration.api_key['api-key'] = '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'
+configuration.api_key['api-key'] = 'put your key here'
 otp = 0
 api_instance = sib_api_v3_sdk.TransactionalEmailsApi(sib_api_v3_sdk.ApiClient(configuration))
 subject = "OTP Code"
